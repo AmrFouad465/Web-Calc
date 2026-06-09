@@ -5,9 +5,7 @@ body{
 }
 .calc{
     box-sizing: border-box;
-    position: absolute;
-    left: 42%;
-    top: 25%;
+    margin: auto;
     background-color: white;
     width: 300px;
     box-shadow: 0 0 20px rgba(93, 92, 92, 0.631);
