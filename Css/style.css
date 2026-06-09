@@ -1,0 +1,41 @@
+body{
+    background-image: url("image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.calc{
+    box-sizing: border-box;
+    position: absolute;
+    left: 42%;
+    top: 25%;
+    background-color: white;
+    width: 300px;
+    box-shadow: 0 0 20px rgba(93, 92, 92, 0.631);
+    border-radius: 10%;
+}
+.screen{
+    height: 150px;
+    overflow: hidden;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:right;
+    overflow:hidden;
+    white-space: nowrap;
+}
+#expression{
+    /* direction: rtl */
+    float: right;
+    font-size: 30px;
+    height: 50px;
+    
+}
+#result{
+    /* float: right; */
+    font-size: 30px;
+    height: 50px;
+    
+}
+.buttons{
+    box-sizing: border-box;
+    /* margin: 10px; */
+}
